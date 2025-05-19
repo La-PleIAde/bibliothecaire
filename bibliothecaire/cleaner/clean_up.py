@@ -243,11 +243,15 @@ def process_directory(input_dir: str, output_dir: str) -> None:
                 except Exception as e:
                     print(f"Error processing {input_file}: {e}")
 
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python clean_corpus.py <input_directory> <output_directory>")
+
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: python cleaner.py <input_dir>")
         sys.exit(1)
 
     input_directory = sys.argv[1]
     output_directory = sys.argv[2]
     process_directory(input_directory, output_directory)
+
+if __name__ == "__main__":
+    main()
