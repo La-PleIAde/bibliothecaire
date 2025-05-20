@@ -1,4 +1,4 @@
-# 📚 Le Bibliothécaire
+# 📚 Bibliothécaire
 
 Le Bibliothécaire is a Python library designed to automatically download and clean French literary texts from online public domain sources such as [Project Gutenberg](https://www.gutenberg.org) and [Wikisource](https://fr.wikisource.org). It provides a unified interface for bulk downloading and standardized text cleanup — ideal for building corpora for NLP, digital humanities, or literary analysis.
 
